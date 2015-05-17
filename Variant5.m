@@ -95,7 +95,9 @@ else if n < 0
     end 
 end
 
-
+st=n:-1:0;
+d=[p' st'];
+set(handles.uitable1,'data',d); 
 
 
 
